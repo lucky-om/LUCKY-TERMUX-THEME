@@ -20,7 +20,7 @@ apt upgrade -y
 pkg install git -y
 ```
 ```
-git clone https://github.com/.git
+git clone https://github.com/lucky-om/LUCKY-TERMUX-THEME
 ```
 ```
 cd CODEX/
@@ -41,7 +41,7 @@ exit
 ### AT ONCE :
 
 ```
-apt update && apt upgrade -y ; pkg install git -y ; git clone https://github.com/.git ; cd CODEX/ ; chmod +x * ; bash install.sh
+apt update && apt upgrade -y ; pkg install git -y ; git clone https://github.com/lucky-om/LUCKY-TERMUX-THEME; cd CODEX/ ; chmod +x * ; bash install.sh
 ```
 
 <details id="missing-code-coverage">
