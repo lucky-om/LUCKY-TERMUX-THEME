@@ -1,6 +1,6 @@
 # LUCKY-TERMUX-THEME
 This is basic Termux Theme or banner. With the help of this you can customise your Termux app.
-<h2 align="center"> <img src="" width="470" /> </h2>
+<h2 align="center"> <img src="https://github.com/lucky-om/LUCKYX/blob/main/files/DEMO.jpg" width="470" /> </h2>
 
 <p align="center">
 
