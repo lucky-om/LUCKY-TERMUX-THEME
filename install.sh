@@ -121,8 +121,8 @@ else
         
 	cp $HOME/LUCKYX/files/colors.properties "$ds"
 fi
-cp $HOME/CODEX/files/ASCII-Shadow.flf $PREFIX/share/figlet/
-mv $HOME/CODEX/files/remove /data/data/com.termux/files/usr/bin/
+cp $HOME/LUCKYX/files/ASCII-Shadow.flf $PREFIX/share/figlet/
+mv $HOME/LUCKYX/files/remove /data/data/com.termux/files/usr/bin/
 chmod +x /data/data/com.termux/files/usr/bin/remove
 termux-reload-settings
 }
@@ -207,10 +207,10 @@ echo -e "   ${y} ██╗        ██╗      ██╗   ██████�
 echo -e "   ${y} ██║        ██║      ██║   ██╔═══╝  ██║   ██╔╝    ╚██╗    ██╔╝"
 echo -e "   ${y} ██║        ██║      ██║   ██║       █████╔╝         ╚████╔╝"
 echo -e "   ${c} ██║        ██║      ██║   ██║       ██╔═██╗          ╚██╔╝"
-echo -e "   ${c} ███████╗    ╚██████╔╝    ██████╗  ██║   ██╗         ██║"
-echo -e "   ${c} ╚══════╝     ╚═════╝     ╚═════╝  ╚═╝    ╚═╝        ╚═╝${n}"
+echo -e "   ${c} ███████╗    ╚██████╔╝     ██████╗  ██║   ██╗         ██║"
+echo -e "   ${c} ╚══════╝     ╚═════╝      ╚═════╝  ╚═╝    ╚═╝        ╚═╝${n}"
 echo -e "${y}               +-+-+-+-+-+-+-+-+-+"
-echo -e "${c}               |B|Y|-|L|U|C|K|Y|"
+echo -e "${c}               |B|Y|-|L|U|C|K|Y|×|O|M"
 echo -e "${y}               +-+-+-+-+-+-+-+-+-+${n}"
 echo
 }
