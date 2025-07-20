@@ -83,14 +83,13 @@ banner
     sleep 1
 }
 
-LUCKYX="https://codex-360-dx.glitch.me"
 cd $HOME
 D1=".termux"
 VERSION="$D1/dx.txt"
 if [ -f "$VERSION" ]; then
     version=$(cat "$VERSION")
 else
-    echo "version 1 1.5" > "$VERSION"
+    echo "version 1.0.1" > "$VERSION"
     version=$(cat "$VERSION")
 fi
 
@@ -164,7 +163,7 @@ for ((i=1; i<=7; i++)); do
     echo "║"
 done
 PUT 10 ${var4}
-echo -e "\e[32m[\e[0m\uf489\e[32m] \e[36mLUCKYX \e[36m 0.0.1\e[0m"
+echo -e "\e[32m[\e[0m\uf489\e[32m] \e[36mLUCKYX \e[36m 1.0.1\e[0m"
 PUT 12 0
 ads1=$(curl -s "$LUCKYX/ads" | jq -r '.[] | .message')
 
