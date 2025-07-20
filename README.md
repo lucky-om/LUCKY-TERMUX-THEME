@@ -20,10 +20,10 @@ apt upgrade -y
 pkg install git -y
 ```
 ```
-git clone https://github.com/lucky-om/LUCKY-TERMUX-THEME
+git clone https://github.com/lucky-om/LUCKYX
 ```
 ```
-cd CODEX/
+cd LUCKYX/
 ```
 ```
 chmod +x *
@@ -41,7 +41,7 @@ exit
 ### AT ONCE :
 
 ```
-apt update && apt upgrade -y ; pkg install git -y ; git clone https://github.com/lucky-om/LUCKY-TERMUX-THEME; cd CODEX/ ; chmod +x * ; bash install.sh
+apt update && apt upgrade -y ; pkg install git -y ; git clone https://github.com/lucky-om/LUCKYX; cd LUCKYX/ ; chmod +x * ; bash install.sh
 ```
 
 <details id="missing-code-coverage">
@@ -50,7 +50,7 @@ apt update && apt upgrade -y ; pkg install git -y ; git clone https://github.com
 ##### How to use LUCKY's tools
 
 ```
-
+Follow on @_ig.om
 ```
 
 </details>
